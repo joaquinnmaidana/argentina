@@ -1,0 +1,101 @@
+.blue {
+  color: rgb(0, 195, 255);
+}
+
+
+.black{
+  color: rgba(0, 3, 3, 0.904);
+}
+
+.align {
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+
+body {
+  background-color: #f2f4f7;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+.arg {
+  width: 30%;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
+
+#big {
+  font-size: 80px;
+}
+
+#medium {
+  font-size: 30px;
+}
+
+.subheader {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.names {
+  font-size: 15px;
+}
+
+.button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  margin: 10px;
+   
+}
+
+#facts {
+  width: 50%;
+  background-color: lightblue;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#celebrities {
+  width: 50%;
+  background-color: lightblue;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#facts {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+#celebrities {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+#argento {
+  display: flex;
+  gap: 20px;
+}
+
+#facts, #celebrities {
+  flex: 1;
+}
