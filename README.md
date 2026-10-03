@@ -5,3 +5,4 @@ Add page styling and Flexbox layout
 Add coloring styles 
 Finished styling with CSS
 Fix accessibility issues from audit
+Final touches with WAVE 
