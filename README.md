@@ -8,3 +8,4 @@ Fix accessibility issues from audit
 Final touches with WAVE 
 Add bootstrap
 Blend out everything 
+Add Bootstrap styling and refactor custom CSS
