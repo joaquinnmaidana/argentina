@@ -9,3 +9,4 @@ Final touches with WAVE
 Add bootstrap
 Blend out everything 
 Add Bootstrap styling and refactor custom CSS
+Rearranged page 2 and styled it properly
