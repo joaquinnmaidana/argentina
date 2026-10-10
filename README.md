@@ -6,3 +6,4 @@ Add coloring styles
 Finished styling with CSS
 Fix accessibility issues from audit
 Final touches with WAVE 
+Add bootstrap
