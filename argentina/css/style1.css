@@ -1,0 +1,101 @@
+:root {
+  --argentina-blue: #005a70;
+  --argentina-sky: #e0f1f4;
+  --argentina-gold: #d6a92f;
+  --argentina-ink: #172a32;
+}
+
+.blue {
+  color: var(--argentina-blue);
+}
+
+.align {
+  text-align: center;
+}
+
+body {
+  background-color: #f4f7f7;
+  color: var(--argentina-ink);
+  font-family: sans-serif;
+}
+
+#main_page_header {
+  background-color: var(--argentina-sky);
+  border-bottom: 4px solid var(--argentina-gold);
+}
+
+.arg {
+  width: 30%;
+  max-width: 280px;
+  border-radius: 8px;
+  border: 3px solid white;
+  display: block;
+  margin: 1rem auto 0;
+}
+
+#big {
+  font-size: 80px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#medium {
+  font-size: 30px;
+}
+
+.subheader {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--argentina-blue);
+}
+
+#facts,
+#celebrities {
+  height: 100%;
+  background-color: var(--argentina-sky);
+  border: 1px solid #9abfc6;
+  border-top: 4px solid var(--argentina-blue);
+  padding: 1rem;
+}
+
+.btn-argentina {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--argentina-blue);
+  --bs-btn-border-color: var(--argentina-blue);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #004556;
+  --bs-btn-hover-border-color: #004556;
+  --bs-btn-focus-shadow-rgb: 0, 90, 112;
+}
+
+.page2-banner {
+  display: block;
+  width: 100%;
+  height: min(56vw, 520px);
+  min-height: 220px;
+  object-fit: cover;
+  border-bottom: 4px solid var(--argentina-gold);
+}
+
+.place-link {
+  display: block;
+  height: 100%;
+  padding: 1rem;
+  border: 1px solid #9abfc6;
+  border-left: 4px solid var(--argentina-gold);
+  border-radius: 3px;
+  background-color: var(--argentina-sky);
+  color: var(--argentina-blue);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.place-link:hover,
+.place-link:focus-visible {
+  background-color: #cbe5eb;
+  color: #004556;
+}
+
+.place-link:focus-visible {
+  outline: 3px solid var(--argentina-gold);
+  outline-offset: 2px;
+}
