@@ -1,34 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Beautiful Places to Visit in Argentina</title>
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina, a country of passion!</title>
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
 <body>
-  <header id="page2_header">
-    <img class="page2-banner" src="./images/argentina places.jpg" alt="The center of Buenos Aires">
+  <header id="main_page_header" class="py-4">
+    <h1 class="align blue" id="big">Argentina</h1>
+    <p id="medium" class="align">This is a page that tells you a little bit more about the most passionate country in the world!</p>
+    <img class="arg" src="./images/flag.webp" alt="Flag of Argentina">
   </header>
 
-  <main id="page2_main" class="container py-4">
-    <h1 id="big" class="align blue mb-4">Most beautiful places to visit:</h1>
-    <ul id="places-list" class="row row-cols-1 row-cols-md-2 g-3 list-unstyled">
-      <li class="col"><a class="place-link" href="https://www.novo-monde.com/en/how-to-visit-perito-moreno-glacier-patagonia-argentina/">Perito Moreno Glacier</a></li>
-      <li class="col"><a class="place-link" href="https://www.travelingmitch.com/mostrecent/self-guided-tour-of-iguazu-falls">Iguazu Falls</a></li>
-      <li class="col"><a class="place-link" href="https://www.tripadvisor.com/Tourism-g316035-El_Chalten_Province_of_Santa_Cruz_Patagonia-Vacations.html">El Chaltén</a></li>
-      <li class="col"><a class="place-link" href="https://bariloche.org/english/photo-of-the-week/">Bariloche (San Carlos de Bariloche)</a></li>
-      <li class="col"><a class="place-link" href="https://argentinaonthego.com/en/a-trip-around-quebrada-de-humahuaca/">Quebrada de Humahuaca</a></li>
-    </ul>
+  <main id="page1_content">
+    <article>
+      <div id="argento" class="container my-4">
+        <div class="row g-4">
+        <section id="facts" class="col-12 col-md-6">
+          <h2 class="subheader">Things that Argentina is known for:</h2>
+          <ul>
+            <li>Football</li>
+            <li>Steak</li>
+            <li>Music</li>
+            <li>Mate</li>
+            <li>Wine</li>
+            <li>Dulce de Leche</li>
+            <li>Tourism</li>
+          </ul>
+        </section>
+        <section id="celebrities" class="col-12 col-md-6">
+          <h2 class="subheader">Top 3 people most known from Argentina:</h2>
+          <ol>
+            <li>
+              <a href="https://messi.com/en/">Lionel Messi</a>
+              <p>He is widely considered one of the greatest athletes in history, winning a record eight Ballon d'Or awards and leading Argentina to victory in the 2022 FIFA World Cup.</p>
+            </li>
+            <li>
+              <a href="https://maradonaofficial.com/es">Diego Maradona</a>
+              <p>He achieved legendary status by single-handedly winning the 1986 World Cup for his country, remembered forever for his brilliant skill and cultural impact.</p>
+            </li>
+            <li>
+              <a href="https://www.cheguevara.org/">Che Guevara</a>
+              <p>Born in Rosario, Argentina, his face became an enduring global countercultural symbol of rebellion and revolution across the world.</p>
+            </li>
+          </ol>
+        </section>
+        </div>
+      </div>
+    </article>
 
-    <p class="align mt-4">
-      <a class="btn btn-argentina" href="./index.html">Go Home</a>
-    </p>
+    <nav aria-label="More information">
+      <h2 class="align subheader">Discover more about Argentina</h2>
+      <ul class="align list-unstyled">
+        <li>
+          <a class="btn btn-argentina" href="./page2.html">Read more on Page 2</a>
+        </li>
+      </ul>
+    </nav>
   </main>
+
+  <footer id="footer">
+    <img src="./images/obelisco.avif" alt="The Obelisk of Buenos Aires" width="100%">
+  </footer>
 </body>
 </html>
